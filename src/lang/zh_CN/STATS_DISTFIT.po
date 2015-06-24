@@ -1,0 +1,189 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_DISTFIT.R:71
+msgid "Distribution Fit"
+msgstr ""
+"分布拟合"
+
+#: STATS_DISTFIT.R:72
+msgid "Distribution Fit: Warnings"
+msgstr ""
+"分布拟合：警告"
+
+#: STATS_DISTFIT.R:77
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"需要 R %s 程序包，但未能将其装入。"
+
+#: STATS_DISTFIT.R:112
+msgid "An unsupported distribution was specified: %s"
+msgstr ""
+"指定了不受支持的分布：%s"
+
+#: STATS_DISTFIT.R:129
+msgid "shape1 and shape2 parameters must be supplied for %s"
+msgstr ""
+"必须为 %s 提供 shape1 和 shape2 参数"
+
+#: STATS_DISTFIT.R:136
+msgid "df1 and df2 parameters must be supplied for %s distribution"
+msgstr ""
+"必须为 %s 分布提供 df1 和 df2 参数"
+
+#: STATS_DISTFIT.R:143
+msgid "df parameter must be supplied for %s distribution"
+msgstr ""
+"必须为 %s 分布提供 df 参数"
+
+#: STATS_DISTFIT.R:154
+msgid "The distribution could not be fit.  Variable: %s, Distribution: %s"
+msgstr ""
+"此分布无法进行拟合。变量：%s，分布：%s"
+
+#: STATS_DISTFIT.R:162
+msgid "Estimate"
+msgstr ""
+"估算"
+
+#: STATS_DISTFIT.R:162
+msgid "Std. Error"
+msgstr ""
+"标准误差"
+
+#: STATS_DISTFIT.R:164
+msgid "Variable: %s Distribution: %s"
+msgstr ""
+"变量：%s 分布：%s"
+
+#: STATS_DISTFIT.R:166
+msgid "Number of valid cases: %s, out of %s total cases"
+msgstr ""
+"有效个案数：%s，总个案数为 %s"
+
+#: STATS_DISTFIT.R:167
+msgid "Distribution Parameters"
+msgstr ""
+"分布参数"
+
+#: STATS_DISTFIT.R:168
+msgid "Parameters"
+msgstr ""
+"参数"
+
+#: STATS_DISTFIT.R:169
+msgid "Statistics"
+msgstr ""
+"统计"
+
+#: STATS_DISTFIT.R:178
+msgid "Q-Q Plot. Variable: %s  Distribution: %s"
+msgstr ""
+"Q-Q 图。变量：%s  分布：%s"
+
+#: STATS_DISTFIT.R:180
+msgid "Theoretical Quantiles"
+msgstr ""
+"理论分位数"
+
+#: STATS_DISTFIT.R:180
+msgid "Sample Quantiles"
+msgstr ""
+"样本分位数"
+
+#: STATS_DISTFIT.R:233
+msgid "Fit Statistics for Variable: %s - Continuous Distributions"
+msgstr ""
+"变量的拟合统计量：%s - 连续分布"
+
+#: STATS_DISTFIT.R:234
+#: STATS_DISTFIT.R:247
+msgid "Distribution"
+msgstr ""
+"分布"
+
+#: STATS_DISTFIT.R:235
+msgid "K-S Statistic"
+msgstr ""
+"K-S 统计信息"
+
+#: STATS_DISTFIT.R:235
+#: STATS_DISTFIT.R:250
+msgid "P Value"
+msgstr ""
+"P 值"
+
+#: STATS_DISTFIT.R:237
+msgid "Continuous Distributions Fit Summary"
+msgstr ""
+"连续分布拟合摘要"
+
+#: STATS_DISTFIT.R:246
+msgid "Fit Statistics for Variable: %s - Discrete Distributions"
+msgstr ""
+"变量的拟合统计量：%s - 离散分布"
+
+#: STATS_DISTFIT.R:248
+msgid "Chi-squared calculated over all integer values between minimum and maximum.\nCell counts < 5: %s"
+msgstr ""
+"已对最小值和最大值之间的所有整数值进行卡方计算。\n单元格计数 < 5：%s"
+
+#: STATS_DISTFIT.R:250
+msgid "Chi-Squared Statistic"
+msgstr ""
+"卡方统计信息"
+
+#: STATS_DISTFIT.R:250
+msgid "D.F."
+msgstr ""
+"自由度"
+
+#: STATS_DISTFIT.R:251
+msgid "Sum of Probabilities"
+msgstr ""
+"概率总和"
+
+#: STATS_DISTFIT.R:251
+msgid "Minimum Value"
+msgstr ""
+"最小值"
+
+#: STATS_DISTFIT.R:251
+msgid "Maximum Value"
+msgstr ""
+"最大值"
+
+#: STATS_DISTFIT.R:254
+msgid "Discrete Distributions Fit Summary"
+msgstr ""
+"离散分布拟合摘要"
+
+#: STATS_DISTFIT.R:319
+msgid "End of procedure"
+msgstr ""
+"过程结束"
+
+#: STATS_DISTFIT.R:348
+msgid "Message Number"
+msgstr ""
+"消息号"
+
+
