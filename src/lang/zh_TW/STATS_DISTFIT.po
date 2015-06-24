@@ -1,0 +1,189 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_DISTFIT.R:71
+msgid "Distribution Fit"
+msgstr ""
+"分佈擬合"
+
+#: STATS_DISTFIT.R:72
+msgid "Distribution Fit: Warnings"
+msgstr ""
+"分佈擬合：警告"
+
+#: STATS_DISTFIT.R:77
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 套件是必要套件，但無法載入。"
+
+#: STATS_DISTFIT.R:112
+msgid "An unsupported distribution was specified: %s"
+msgstr ""
+"指定了不受支援的分佈：%s"
+
+#: STATS_DISTFIT.R:129
+msgid "shape1 and shape2 parameters must be supplied for %s"
+msgstr ""
+"必須為 %s 提供 shape1 及 shape2 參數"
+
+#: STATS_DISTFIT.R:136
+msgid "df1 and df2 parameters must be supplied for %s distribution"
+msgstr ""
+"必須為 %s 分佈提供 df1 及 df2 參數"
+
+#: STATS_DISTFIT.R:143
+msgid "df parameter must be supplied for %s distribution"
+msgstr ""
+"必須為 %s 分佈提供 df 參數"
+
+#: STATS_DISTFIT.R:154
+msgid "The distribution could not be fit.  Variable: %s, Distribution: %s"
+msgstr ""
+"分佈無法擬合。變數：%s，分佈：%s"
+
+#: STATS_DISTFIT.R:162
+msgid "Estimate"
+msgstr ""
+"估計"
+
+#: STATS_DISTFIT.R:162
+msgid "Std. Error"
+msgstr ""
+"標準誤"
+
+#: STATS_DISTFIT.R:164
+msgid "Variable: %s Distribution: %s"
+msgstr ""
+"變數：%s 分佈：%s"
+
+#: STATS_DISTFIT.R:166
+msgid "Number of valid cases: %s, out of %s total cases"
+msgstr ""
+"有效的觀察值數目：%s，超出 %s 總觀察值"
+
+#: STATS_DISTFIT.R:167
+msgid "Distribution Parameters"
+msgstr ""
+"分佈參數"
+
+#: STATS_DISTFIT.R:168
+msgid "Parameters"
+msgstr ""
+"參數"
+
+#: STATS_DISTFIT.R:169
+msgid "Statistics"
+msgstr ""
+"統計量"
+
+#: STATS_DISTFIT.R:178
+msgid "Q-Q Plot. Variable: %s  Distribution: %s"
+msgstr ""
+"Q-Q 圖。變數：%s  分佈：%s"
+
+#: STATS_DISTFIT.R:180
+msgid "Theoretical Quantiles"
+msgstr ""
+"理論分位數"
+
+#: STATS_DISTFIT.R:180
+msgid "Sample Quantiles"
+msgstr ""
+"樣本分位數"
+
+#: STATS_DISTFIT.R:233
+msgid "Fit Statistics for Variable: %s - Continuous Distributions"
+msgstr ""
+"變數的適合度統計量：%s - 連續分佈"
+
+#: STATS_DISTFIT.R:234
+#: STATS_DISTFIT.R:247
+msgid "Distribution"
+msgstr ""
+"分佈"
+
+#: STATS_DISTFIT.R:235
+msgid "K-S Statistic"
+msgstr ""
+"K-S 統計量"
+
+#: STATS_DISTFIT.R:235
+#: STATS_DISTFIT.R:250
+msgid "P Value"
+msgstr ""
+"P 值"
+
+#: STATS_DISTFIT.R:237
+msgid "Continuous Distributions Fit Summary"
+msgstr ""
+"連續分佈適合度摘要"
+
+#: STATS_DISTFIT.R:246
+msgid "Fit Statistics for Variable: %s - Discrete Distributions"
+msgstr ""
+"變數的適合度統計量：%s - 離散分佈"
+
+#: STATS_DISTFIT.R:248
+msgid "Chi-squared calculated over all integer values between minimum and maximum.\nCell counts < 5: %s"
+msgstr ""
+"透過介於下限與上限之間的所有整數值計算的卡方。\n儲存格計數 < 5：%s"
+
+#: STATS_DISTFIT.R:250
+msgid "Chi-Squared Statistic"
+msgstr ""
+"卡方統計量"
+
+#: STATS_DISTFIT.R:250
+msgid "D.F."
+msgstr ""
+"D.F."
+
+#: STATS_DISTFIT.R:251
+msgid "Sum of Probabilities"
+msgstr ""
+"機率之和"
+
+#: STATS_DISTFIT.R:251
+msgid "Minimum Value"
+msgstr ""
+"最小值"
+
+#: STATS_DISTFIT.R:251
+msgid "Maximum Value"
+msgstr ""
+"最大值"
+
+#: STATS_DISTFIT.R:254
+msgid "Discrete Distributions Fit Summary"
+msgstr ""
+"離散分佈適合度摘要"
+
+#: STATS_DISTFIT.R:319
+msgid "End of procedure"
+msgstr ""
+"程序的結尾"
+
+#: STATS_DISTFIT.R:348
+msgid "Message Number"
+msgstr ""
+"訊息號碼"
+
+
