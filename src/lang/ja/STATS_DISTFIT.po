@@ -1,0 +1,189 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_DISTFIT.R:71
+msgid "Distribution Fit"
+msgstr ""
+"分布の適合"
+
+#: STATS_DISTFIT.R:72
+msgid "Distribution Fit: Warnings"
+msgstr ""
+"分布の適合: 警告"
+
+#: STATS_DISTFIT.R:77
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s パッケージが必要ですが、読み込むことができませんでした。"
+
+#: STATS_DISTFIT.R:112
+msgid "An unsupported distribution was specified: %s"
+msgstr ""
+"サポートされない分布が指定されました: %s"
+
+#: STATS_DISTFIT.R:129
+msgid "shape1 and shape2 parameters must be supplied for %s"
+msgstr ""
+"%s に対して shape1 と shape2 の各パラメータを指定する必要があります"
+
+#: STATS_DISTFIT.R:136
+msgid "df1 and df2 parameters must be supplied for %s distribution"
+msgstr ""
+"%s 分布に対して df1 と df2 の各パラメータを指定する必要があります"
+
+#: STATS_DISTFIT.R:143
+msgid "df parameter must be supplied for %s distribution"
+msgstr ""
+" %s 分布に対して df パラメータを指定する必要があります"
+
+#: STATS_DISTFIT.R:154
+msgid "The distribution could not be fit.  Variable: %s, Distribution: %s"
+msgstr ""
+"分布を適合できませんでした。変数: %s、分布: %s"
+
+#: STATS_DISTFIT.R:162
+msgid "Estimate"
+msgstr ""
+"推定値"
+
+#: STATS_DISTFIT.R:162
+msgid "Std. Error"
+msgstr ""
+"標準誤差"
+
+#: STATS_DISTFIT.R:164
+msgid "Variable: %s Distribution: %s"
+msgstr ""
+"変数: %s 分布: %s"
+
+#: STATS_DISTFIT.R:166
+msgid "Number of valid cases: %s, out of %s total cases"
+msgstr ""
+"有効なケースの数: %s (ケース総数 %s)"
+
+#: STATS_DISTFIT.R:167
+msgid "Distribution Parameters"
+msgstr ""
+"パラメータの分布"
+
+#: STATS_DISTFIT.R:168
+msgid "Parameters"
+msgstr ""
+"パラメータ"
+
+#: STATS_DISTFIT.R:169
+msgid "Statistics"
+msgstr ""
+"統計"
+
+#: STATS_DISTFIT.R:178
+msgid "Q-Q Plot. Variable: %s  Distribution: %s"
+msgstr ""
+"正規 Q-Q プロット。変数: %s  分布: %s"
+
+#: STATS_DISTFIT.R:180
+msgid "Theoretical Quantiles"
+msgstr ""
+"理論的分位"
+
+#: STATS_DISTFIT.R:180
+msgid "Sample Quantiles"
+msgstr ""
+"サンプルの分位"
+
+#: STATS_DISTFIT.R:233
+msgid "Fit Statistics for Variable: %s - Continuous Distributions"
+msgstr ""
+"適合度統計: 変数: %s - 連続型分布"
+
+#: STATS_DISTFIT.R:234
+#: STATS_DISTFIT.R:247
+msgid "Distribution"
+msgstr ""
+"分布"
+
+#: STATS_DISTFIT.R:235
+msgid "K-S Statistic"
+msgstr ""
+"K-S 統計"
+
+#: STATS_DISTFIT.R:235
+#: STATS_DISTFIT.R:250
+msgid "P Value"
+msgstr ""
+"P 値"
+
+#: STATS_DISTFIT.R:237
+msgid "Continuous Distributions Fit Summary"
+msgstr ""
+"連続型分布の適合度の要約"
+
+#: STATS_DISTFIT.R:246
+msgid "Fit Statistics for Variable: %s - Discrete Distributions"
+msgstr ""
+"適合度統計: 変数: %s - 離散型分布"
+
+#: STATS_DISTFIT.R:248
+msgid "Chi-squared calculated over all integer values between minimum and maximum.\nCell counts < 5: %s"
+msgstr ""
+"最小値と最大値の間のすべての整数値についてカイ 2 乗を計算。\nセル度数 < 5: %s"
+
+#: STATS_DISTFIT.R:250
+msgid "Chi-Squared Statistic"
+msgstr ""
+"カイ 2 乗統計"
+
+#: STATS_DISTFIT.R:250
+msgid "D.F."
+msgstr ""
+"自由度"
+
+#: STATS_DISTFIT.R:251
+msgid "Sum of Probabilities"
+msgstr ""
+"確率の合計"
+
+#: STATS_DISTFIT.R:251
+msgid "Minimum Value"
+msgstr ""
+"最小値"
+
+#: STATS_DISTFIT.R:251
+msgid "Maximum Value"
+msgstr ""
+"最大値"
+
+#: STATS_DISTFIT.R:254
+msgid "Discrete Distributions Fit Summary"
+msgstr ""
+"離散型分布の適合度の要約"
+
+#: STATS_DISTFIT.R:319
+msgid "End of procedure"
+msgstr ""
+"手順の終わり"
+
+#: STATS_DISTFIT.R:348
+msgid "Message Number"
+msgstr ""
+"メッセージ番号"
+
+
