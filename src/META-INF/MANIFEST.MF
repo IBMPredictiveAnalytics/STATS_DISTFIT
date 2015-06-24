@@ -1,0 +1,16 @@
+Name: STATS DISTFIT
+Dialog-Specs: STATS_DISTFIT.spd
+Command-Specs: STATS_DISTFIT.xml
+Code-Files: STATS_DISTFIT.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Fit probability distributions
+Description: This package fits one or more selected probability distri
+ butions to a collection of variables.  The output includes the fit pa
+ rameters, a goodness-of-fit test, and, optionally, Q-Q plots.
+Author: JKP, IBM SPSS
+Version: 1.1.5
+Product-Version: 18
+Date: 11/26/11
+Categories: statistics
+Plugins: R
+Translation-Catalogues: lang
