@@ -1,0 +1,189 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_DISTFIT.R:71
+msgid "Distribution Fit"
+msgstr ""
+"분포 적합"
+
+#: STATS_DISTFIT.R:72
+msgid "Distribution Fit: Warnings"
+msgstr ""
+"분포 적합: 경고"
+
+#: STATS_DISTFIT.R:77
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 패키지가 필요하지만 로드할 수 없습니다."
+
+#: STATS_DISTFIT.R:112
+msgid "An unsupported distribution was specified: %s"
+msgstr ""
+"지원되지 않는 분포가 지정되었습니다: %s"
+
+#: STATS_DISTFIT.R:129
+msgid "shape1 and shape2 parameters must be supplied for %s"
+msgstr ""
+"%s에 대해 형태1 및 형태2 모수를 제공해야 합니다."
+
+#: STATS_DISTFIT.R:136
+msgid "df1 and df2 parameters must be supplied for %s distribution"
+msgstr ""
+"%s 분포에 대해 자유도1 및 자유도2 모수를 제공해야 합니다."
+
+#: STATS_DISTFIT.R:143
+msgid "df parameter must be supplied for %s distribution"
+msgstr ""
+"%s 분포에 대해 자유도 모수를 제공해야 합니다."
+
+#: STATS_DISTFIT.R:154
+msgid "The distribution could not be fit.  Variable: %s, Distribution: %s"
+msgstr ""
+"분포가 적합하지 않습니다. 변수: %s, 분포: %s"
+
+#: STATS_DISTFIT.R:162
+msgid "Estimate"
+msgstr ""
+"추정값"
+
+#: STATS_DISTFIT.R:162
+msgid "Std. Error"
+msgstr ""
+"표준오차"
+
+#: STATS_DISTFIT.R:164
+msgid "Variable: %s Distribution: %s"
+msgstr ""
+"변수: %s 분포: %s"
+
+#: STATS_DISTFIT.R:166
+msgid "Number of valid cases: %s, out of %s total cases"
+msgstr ""
+"유효 케이스 수: %s, 전체 케이스: %s"
+
+#: STATS_DISTFIT.R:167
+msgid "Distribution Parameters"
+msgstr ""
+"분포모수"
+
+#: STATS_DISTFIT.R:168
+msgid "Parameters"
+msgstr ""
+"모수"
+
+#: STATS_DISTFIT.R:169
+msgid "Statistics"
+msgstr ""
+"통계"
+
+#: STATS_DISTFIT.R:178
+msgid "Q-Q Plot. Variable: %s  Distribution: %s"
+msgstr ""
+"Q-Q 도표 변수: %s 분포: %s"
+
+#: STATS_DISTFIT.R:180
+msgid "Theoretical Quantiles"
+msgstr ""
+"이론적 4분위수"
+
+#: STATS_DISTFIT.R:180
+msgid "Sample Quantiles"
+msgstr ""
+"표본 4분위수"
+
+#: STATS_DISTFIT.R:233
+msgid "Fit Statistics for Variable: %s - Continuous Distributions"
+msgstr ""
+"변수에 대한 통계량 적합: %s - 연속형 분포"
+
+#: STATS_DISTFIT.R:234
+#: STATS_DISTFIT.R:247
+msgid "Distribution"
+msgstr ""
+"분포"
+
+#: STATS_DISTFIT.R:235
+msgid "K-S Statistic"
+msgstr ""
+"K-S 통계량"
+
+#: STATS_DISTFIT.R:235
+#: STATS_DISTFIT.R:250
+msgid "P Value"
+msgstr ""
+"P 값"
+
+#: STATS_DISTFIT.R:237
+msgid "Continuous Distributions Fit Summary"
+msgstr ""
+"연속형 분포 적합 요약"
+
+#: STATS_DISTFIT.R:246
+msgid "Fit Statistics for Variable: %s - Discrete Distributions"
+msgstr ""
+"변수에 대한 통계량 적합: %s - 이산형 분포"
+
+#: STATS_DISTFIT.R:248
+msgid "Chi-squared calculated over all integer values between minimum and maximum.\nCell counts < 5: %s"
+msgstr ""
+"최소값과 최대값 사이의 모든 정수값에 대해 계산된 카이제곱입니다.\n셀 빈도 < 5: %s"
+
+#: STATS_DISTFIT.R:250
+msgid "Chi-Squared Statistic"
+msgstr ""
+"카이제곱 통계량"
+
+#: STATS_DISTFIT.R:250
+msgid "D.F."
+msgstr ""
+"자유도"
+
+#: STATS_DISTFIT.R:251
+msgid "Sum of Probabilities"
+msgstr ""
+"확률 합계"
+
+#: STATS_DISTFIT.R:251
+msgid "Minimum Value"
+msgstr ""
+"최소값"
+
+#: STATS_DISTFIT.R:251
+msgid "Maximum Value"
+msgstr ""
+"최대값"
+
+#: STATS_DISTFIT.R:254
+msgid "Discrete Distributions Fit Summary"
+msgstr ""
+"이산형 분포 적합 요약"
+
+#: STATS_DISTFIT.R:319
+msgid "End of procedure"
+msgstr ""
+"프로시저 끝"
+
+#: STATS_DISTFIT.R:348
+msgid "Message Number"
+msgstr ""
+"메시지 번호"
+
+
