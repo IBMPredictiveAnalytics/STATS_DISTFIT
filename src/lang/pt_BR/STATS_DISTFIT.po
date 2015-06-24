@@ -1,0 +1,189 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_DISTFIT.R:71
+msgid "Distribution Fit"
+msgstr ""
+"Ajuste de distribuição"
+
+#: STATS_DISTFIT.R:72
+msgid "Distribution Fit: Warnings"
+msgstr ""
+"Ajuste de distribuição: Avisos"
+
+#: STATS_DISTFIT.R:77
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"O pacote R %s é necessário, mas não pôde ser carregado."
+
+#: STATS_DISTFIT.R:112
+msgid "An unsupported distribution was specified: %s"
+msgstr ""
+"Uma distribuição não suportada foi especificada: %s"
+
+#: STATS_DISTFIT.R:129
+msgid "shape1 and shape2 parameters must be supplied for %s"
+msgstr ""
+"Os parâmetros shape1 e shape2 devem ser fornecidos para %s"
+
+#: STATS_DISTFIT.R:136
+msgid "df1 and df2 parameters must be supplied for %s distribution"
+msgstr ""
+"Os parâmetros df1 e df2 devem ser fornecidos para a distribuição %s "
+
+#: STATS_DISTFIT.R:143
+msgid "df parameter must be supplied for %s distribution"
+msgstr ""
+"O parâmetro df deve ser fornecido para a distribuição %s "
+
+#: STATS_DISTFIT.R:154
+msgid "The distribution could not be fit.  Variable: %s, Distribution: %s"
+msgstr ""
+"A distribuição não pôde ser ajustada. Variável: %s, Distribuição: %s"
+
+#: STATS_DISTFIT.R:162
+msgid "Estimate"
+msgstr ""
+"Estimativa"
+
+#: STATS_DISTFIT.R:162
+msgid "Std. Error"
+msgstr ""
+"Erro Padrão"
+
+#: STATS_DISTFIT.R:164
+msgid "Variable: %s Distribution: %s"
+msgstr ""
+"Variável: %s Distribuição: %s"
+
+#: STATS_DISTFIT.R:166
+msgid "Number of valid cases: %s, out of %s total cases"
+msgstr ""
+"Número de casos válidos: %s, do total de %s casos"
+
+#: STATS_DISTFIT.R:167
+msgid "Distribution Parameters"
+msgstr ""
+"Parâmetros de distribuição"
+
+#: STATS_DISTFIT.R:168
+msgid "Parameters"
+msgstr ""
+"Parâmetros"
+
+#: STATS_DISTFIT.R:169
+msgid "Statistics"
+msgstr ""
+"Estatísticas"
+
+#: STATS_DISTFIT.R:178
+msgid "Q-Q Plot. Variable: %s  Distribution: %s"
+msgstr ""
+"Gráfico Q-Q. Variável: %s Distribuição: %s"
+
+#: STATS_DISTFIT.R:180
+msgid "Theoretical Quantiles"
+msgstr ""
+"Quantis teóricos"
+
+#: STATS_DISTFIT.R:180
+msgid "Sample Quantiles"
+msgstr ""
+"Quantis de amostra"
+
+#: STATS_DISTFIT.R:233
+msgid "Fit Statistics for Variable: %s - Continuous Distributions"
+msgstr ""
+"Estatísticas de ajuste para variável: %s - Distribuições contínuas"
+
+#: STATS_DISTFIT.R:234
+#: STATS_DISTFIT.R:247
+msgid "Distribution"
+msgstr ""
+"Distribuição"
+
+#: STATS_DISTFIT.R:235
+msgid "K-S Statistic"
+msgstr ""
+"Estatística K-S"
+
+#: STATS_DISTFIT.R:235
+#: STATS_DISTFIT.R:250
+msgid "P Value"
+msgstr ""
+"Valor de P"
+
+#: STATS_DISTFIT.R:237
+msgid "Continuous Distributions Fit Summary"
+msgstr ""
+"Resumo de ajuste de distribuições contínuas"
+
+#: STATS_DISTFIT.R:246
+msgid "Fit Statistics for Variable: %s - Discrete Distributions"
+msgstr ""
+"Estatísticas de ajuste para variável: %s - Distribuições discretas"
+
+#: STATS_DISTFIT.R:248
+msgid "Chi-squared calculated over all integer values between minimum and maximum.\nCell counts < 5: %s"
+msgstr ""
+"Qui-quadrado calculado sobre todos os valores de número inteiro entre o mínimo e o máximo.\nContagens de célula < 5: %s"
+
+#: STATS_DISTFIT.R:250
+msgid "Chi-Squared Statistic"
+msgstr ""
+"Estatísticas de qui-quadrado"
+
+#: STATS_DISTFIT.R:250
+msgid "D.F."
+msgstr ""
+"Função de densidade"
+
+#: STATS_DISTFIT.R:251
+msgid "Sum of Probabilities"
+msgstr ""
+"Soma de probabilidades"
+
+#: STATS_DISTFIT.R:251
+msgid "Minimum Value"
+msgstr ""
+"Valor mínimo"
+
+#: STATS_DISTFIT.R:251
+msgid "Maximum Value"
+msgstr ""
+"Valor máximo"
+
+#: STATS_DISTFIT.R:254
+msgid "Discrete Distributions Fit Summary"
+msgstr ""
+"Sumarização de ajuste de distribuições discretas"
+
+#: STATS_DISTFIT.R:319
+msgid "End of procedure"
+msgstr ""
+"Fim do procedimento"
+
+#: STATS_DISTFIT.R:348
+msgid "Message Number"
+msgstr ""
+"Número da mensagem"
+
+
