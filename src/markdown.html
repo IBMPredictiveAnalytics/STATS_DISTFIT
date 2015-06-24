@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS DISTFIT Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<!-- rmarkdown v1 -->
+
+<h1>STATS DISTFIT Extension Command</h1>
+
+<p>Fit selected probability distributions.</p>
+<div class="syntax">
+<p>STATS DISTFIT  VARIABLE=<em>variable list</em><sup>&#42;</sup>
+DISTRIBUTION=distributions (see description)<sup>&#42;</sup><br/>
+/OPTIONS SIMULATEP=NO<sup>&#42;&#42;</sup> or YES MINVALUE=<em>value</em> MAXVALUE=<em>value</em>
+QQPLOT=NO<sup>&#42;&#42;</sup> or YES PARM1=<em>value</em> PARM2=<em>value</em>.</p>
+
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS DISTFIT /HELP prints this information and does nothing else.</p>
+
+<pre class="example"><code>STATS DISTFIT VARIABLE=x y z DISTRIBUTION=lognormal negativebinomial.
+</code></pre>
+
+<p><strong>VARIABLE</strong> is a list of numeric variables for which distributions should be estimated.</p>
+
+<p><strong>DISTRIBUTION</strong> is a list of one or more distributions to fit.  The distribution keywords are
+<strong>beta</strong>, <strong>cauchy</strong>, <strong>chisquared</strong>, <strong>exponential</strong>, 
+<strong>f</strong>, <strong>gamma</strong>, <strong>geometric</strong>, <strong>lognormal</strong>, 
+<strong>logistic</strong>, <strong>negativebinomial</strong>,
+<strong>normal</strong>, <strong>poisson</strong>, <strong>t</strong>, and <strong>weibull</strong>.</p>
+
+<h2>OPTIONS</h2>
+
+<p>For certain distributions starting values for estimating the parameters must be supplied using
+the PARM1 and PARM2 keywords.</p>
+
+<table><thead>
+<tr>
+<th>Distribution</th>
+<th>PARM1</th>
+<th>PARM2</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Beta</td>
+<td>shape1</td>
+<td>shape2</td>
+</tr>
+<tr>
+<td>Chi-squared</td>
+<td>df</td>
+<td>-</td>
+</tr>
+<tr>
+<td>F</td>
+<td>df1</td>
+<td>df2</td>
+</tr>
+</tbody></table>
+
+<p>For some continuous distributions, a Kolmogorov-Smirnow test of fit is carried out, and the results are
+displayed in a table for each variable.</p>
+
+<p>For some discrete distributions, a chi-squared test is computed and displayed in a table for each
+variable.  By default, asymptotic significance is reported.  Specify <strong>SIMULATEP</strong>=YES to use
+Monte Carlo simulation.</p>
+
+<p>For discrete distributions, counts for cells between the observed minimum and maximum 
+values are included as zeros in the chi-squared test.<br/>
+Use  <strong>MINVALUE</strong> and/or <strong>MAXVALUE</strong> to override these values.</p>
+
+<p>Use <strong>QQPLOT</strong>=YES to produce a Q-Q plot for each variable against each fitted distribution.</p>
+
+<p>Split files is supported, but weight is not honored by this command.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
