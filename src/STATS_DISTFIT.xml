@@ -1,0 +1,18 @@
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extension-1.0.xsd" Name="STATS DISTFIT" Language="R" Mode="Source">
+	<Subcommand Name="" IsArbitrary="False" Occurrence="Optional">
+		<Parameter Name="VARIABLE" ParameterType="VariableNameList"/>
+		<Parameter Name="DISTRIBUTION" ParameterType="KeywordList"/>
+		<Parameter Name="SHAPE1" ParameterType="Number"/>
+		<Parameter Name="SHAPE2" ParameterType="Number"/>
+		<Parameter Name="DF1" ParameterType="Number"/>
+		<Parameter Name="DF2" ParameterType="Number"/>
+		<Parameter Name="DF" ParameterType="Number"/>
+	</Subcommand>
+	<Subcommand Name="OPTIONS">
+		<Parameter Name="SIMULATEP" ParameterType="Keyword"/>
+		<Parameter Name="MINVALUE" ParameterType="Integer"/>
+		<Parameter Name="MAXVALUE" ParameterType="Integer"/>
+		<Parameter Name="QQPLOT" ParameterType="Keyword"/>
+	</Subcommand>
+	<Subcommand Name="HELP" Occurrence="Optional"/>
+</Command>
