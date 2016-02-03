@@ -1,11 +1,11 @@
 # STATS DISTFIT
 ## Fit probability distributions
- This package fits one or more selected probability distri
+ This package fits one or more selected probability distributions to a collection of variables.  The output includes the fit parameters, a goodness-of-fit test, and, optionally, Q-Q plots.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
